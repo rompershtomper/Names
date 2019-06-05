@@ -10,6 +10,7 @@ namespace Names
             double[] counter = new double[31];
             foreach (var e in names)
             {
+                //По условиям задачи не учитываем родившихся 1го числа
                 if (e.Name==name && e.BirthDate.Day!=1)
                     counter[e.BirthDate.Day-1]++;
             }
