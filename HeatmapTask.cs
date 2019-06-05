@@ -9,6 +9,7 @@ namespace Names
             double[,] matrix = new double[30, 12];
             foreach(var e in names)
             {
+                //По условиям задачи не учитываем родившихся 1го числа
                 if (e.BirthDate.Day!=1)
                     matrix[e.BirthDate.Day-2, e.BirthDate.Month-1]++;
             }
