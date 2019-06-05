@@ -2,7 +2,7 @@
 
 This is a learning task.
 
-Wroten by me:
+Written by me:
 [HistogramTask.cs](https://github.com/rompershtomper/Chart_data/blob/master/HistogramTask.cs) and 
 [HeatmapTask.cs](https://github.com/rompershtomper/Chart_data/blob/master/HeatmapTask.cs)
 
